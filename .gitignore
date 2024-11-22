@@ -1,0 +1,12 @@
+# Ignorar o diretório __pycache__
+__pycache__/
+
+# Ignorar arquivos de banco de dados
+*.db
+
+# Ignorar ambientes virtuais
+venv/
+
+# Ignorar arquivos de configuração do editor
+.vscode/
+.idea/
