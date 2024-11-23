@@ -10,3 +10,4 @@ venv/
 # Ignorar arquivos de configuração do editor
 .vscode/
 .idea/
+todo.txt
