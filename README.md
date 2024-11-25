@@ -1,4 +1,9 @@
-<a href="https://idx.google.com/import?url=https%3A%2F%2Fgithub.com%2Fkauan345developer%2FTodoFastAPI.git">
+# Curso FastAPI
+
+
+### clique no botão abaixo para iniciar o repositório
+
+<a href="https://idx.google.com/import?url=https%3A%2F%2Fgithub.com%2Fkauan345developer%2FTodoFastAPI.git" target="_blank">
   <img
     height="32"
     alt="Open in IDX"
