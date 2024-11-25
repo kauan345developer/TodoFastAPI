@@ -60,9 +60,13 @@ def todo_edit(todo_id: int, todo: TodoEdit, session: Session = Depends(get_sessi
         raise HTTPException(
             status_code=HTTPStatus.NOT_FOUND, detail="Tarefa Não encontrada."
         )
+    print(todo)
+    print(todo.model_dump(exclude_unset=True))
 
     for key, value in todo.model_dump(exclude_unset=True).items():
         setattr(db_todo, key, value)
+
+    
 
     session.add(db_todo)
     session.commit()
